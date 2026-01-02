@@ -37,18 +37,26 @@ This project performs model comparison and hyperparameter tuning using **Randomi
 
 ---
 
-## 📊 Output File
-
 ### ✔ `model_performance_results.csv`
 
-This file contains **one row per model**, including:
+This file contains **one row per model** with the following columns:
 
-| Model | Train Accuracy | Test Accuracy | Train F1 | Test F1 | Precision | Recall | ROC-AUC | Best Params |
-|-------|----------------|--------------|---------|--------|----------|--------|--------|-----------|
+| Column | Description |
+|--------|------------|
+| **Model** | Name of the machine-learning model |
+| **Model Parameters** | Best hyperparameters selected by RandomizedSearchCV |
+| **Train Accuracy** | Accuracy score on the training dataset |
+| **Test Accuracy** | Accuracy score on the test dataset |
+| **Train F1 Score** | Weighted F1-score on training data |
+| **Test F1 Score** | Weighted F1-score on test data |
+| **Train Precision** | Precision score on training data |
+| **Test Precision** | Precision score on test data |
+| **Train Recall** | Recall score on training data |
+| **Test Recall** | Recall score on test data |
+| **Train Roc Auc Score** | ROC-AUC score on training data |
+| **Test Roc Auc Score** | ROC-AUC score on test data |
 
-The **Best Params** column stores the tuned hyperparameters for each model.
-
----
+> ✅ This single file contains **both performance metrics and tuned hyperparameters** for every model.
 
 ## ⚙️ Workflow
 
