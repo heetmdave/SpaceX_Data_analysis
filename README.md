@@ -1,5 +1,5 @@
 
-# 🚀 Machine Learning Model Selection & Hyperparameter Tuning
+# 🚀 Falcon 9 Data Analysis
 
 This project performs model comparison and hyperparameter tuning using **RandomizedSearchCV** across multiple machine-learning models. Each model is evaluated on the training and test datasets, and both the **model performance metrics and the best hyperparameters** are stored together in a single results file.
 
@@ -88,6 +88,4 @@ This file contains **one row per model** with the following columns:
 
 ---
 
-## 📝 License
 
-This project is licensed under the MIT License. Feel free to modify and reuse.
